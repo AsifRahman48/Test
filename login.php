@@ -14,5 +14,4 @@ if(isset($_POST['submit'])){
         echo "please enter valid login details";
     }
 }
-
 ?>
