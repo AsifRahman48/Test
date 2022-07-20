@@ -1,7 +1,7 @@
 <?php 
 session_start();
 include('index.php');
-include('db.php');
+include('db1.php');
 if(isset($_POST['submit'])){
     $username=mysqli_real_escape_string($con,$_POST['username']);
     $password=mysqli_real_escape_string($con,$_POST['password']);
